@@ -619,14 +619,16 @@ border-radius: 4px;
 
 .items-menu-two-flex {
     width: 370px;
-        margin-bottom: 30px;
-        border: 1px solid #EEEEEE;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-                1px 4px 6px rgba(0, 0, 0, 0.16);
-        
+    border: 1px solid #EEEEEE;
     background: #FFFFFF;
     flex-basis: calc((100% - 60px) / 3);
    
+}
+
+.items-menu-two-flex:hover,
+.items-menu-two-flex:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -684,10 +686,9 @@ border-radius: 4px;
 .button-portfolio-first {
     width: 73px;
     height: 38px;
-    background: #2196F3;
-    color: #FFFFFF;
-    
-     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    background: #F5F4FA;
+    border: 0px;
+     /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
      border-radius: 4px;
 }
 
@@ -696,6 +697,7 @@ border-radius: 4px;
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
 }
 
 .button-portfolio-third {
@@ -703,6 +705,7 @@ border-radius: 4px;
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
 }
 
 .button-portfolio-forth {
@@ -710,6 +713,7 @@ border-radius: 4px;
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
 }
 
 .button-portfolio-fifth {
@@ -717,12 +721,14 @@ border-radius: 4px;
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
 }
 
 .model-btn-portfolio:hover,
 .model-btn-portfolio:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
     
 
